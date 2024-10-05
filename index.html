@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vukosi Hector Mathonsi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav id="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate student and developer.</p>
+            <a href="#about" class="cta-btn">Learn More About Me</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/me.jpg" alt="Your Name" /> <!-- Replace 'your-photo.jpg' with your actual photo file -->
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Vukosi Hector Mathonsi.</h3>
+                    <p>
+                        I'm a third-year student at the University of Johannesburg, pursuing a BSc in Mathematical Science with a focus on Mathematical Statistics and Computer Science.
+                        My interests include Data Science, Artificial Intelligence, Machine Learning, and Software Engineering. I am passionate about turning complex data into actionable insights and building innovative solutions.
+                    </p>
+                    <h4>Skills:</h4>
+                    <ul>
+                        <li>Data Analysis and Visualization</li>
+                        <li>Statistical Modeling</li>
+                        <li>Network Programming</li>
+                        <li>(Java, R, Python) Programming</li>
+                        <li>Web Development (HTML, CSS, JavaScript)</li>
+                    </ul>
+                    <p>
+                        I’m always eager to learn new technologies and enhance my skill set. When I'm not coding, I enjoy exploring the latest trends in technology and participating in online courses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-item">
+            <img src="images/university_of_johannesburg_logo.jpeg" alt="University of Johannesburg Logo">
+            <div class="education-header">
+                <h3>University of Johannesburg</h3>
+                <h4>Bachelor of Science - BS, Mathematical Statistics and Computer Science</h4>
+                <p>Jan 2021 - Present</p>
+            </div>
+            <div class="education-content" style="display: none;">
+                <p>- Pursuing a Bachelor’s Degree in Mathematical Science with a focus on Mathematical Statistics and Computer Science.</p>
+                <p>- Engaged in coursework covering Calculus, Linear Algebra, Statistics, and Computer Science.</p>
+                <p>- Developing skills in data science, machine learning, software engineering, and statistical analysis.</p>
+                <p>Skills: Mathematical Modeling · Network Programming · Computer System Architectures · Object-Oriented Programming (Java) · R (Programming Language) · Data Communications · Computer Science Fundamentals · Statistical Data Analysis</p>
+            </div>
+            <button class="toggle-details">More</button>
+        </div>
+
+        <div class="education-item">
+            <img src="images/wethinkcode_logo.jpeg" alt="WeThinkCode Logo">
+            <div class="education-header">
+                <h3>WeThinkCode</h3>
+                <h4>Computer Software Engineering</h4>
+                <p>Sep 2021 - Jul 2022</p>
+            </div>
+            <div class="education-content" style="display: none;">
+                <p>- Completed 1st year coursework in programming fundamentals, object-oriented programming, and software engineering.</p>
+                <p>- Gained hands-on experience with Python and Java, including knowledge of OAuth, REST APIs, unit testing, and configuration files.</p>
+                <p>- Worked on group projects involving client-server architecture, network programming, and multi-user systems.</p>
+                <p>Skills: Network Programming · OAuth and REST API Integration · Programming Fundamentals (Python) · Object-Oriented Programming (Java) · Unit Testing · Git and Version Control · Team Collaboration · Agile Methodologies</p>
+            </div>
+            <button class="toggle-details">More</button>
+        </div>
+
+        <div class="education-item">
+            <img src="images/school.png" alt="Tembisa Secondary School Logo">
+            <div class="education-header">
+                <h3>Tembisa Secondary School</h3>
+                <h4>Bachelor's Pass, Science Stream</h4>
+                <p>Jan 2016 - Dec 2020</p>
+            </div>
+            <div class="education-content" style="display: none;">
+                <p>Grade: 12</p>
+                <p>Subjects:</p>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>Physical Sciences</li>
+                    <li>Computer Application Technology</li>
+                    <li>Life Sciences</li>
+                    <li>Life Orientation</li>
+                    <li>English FAL</li>
+                    <li>Xitsonga HL</li>
+            </div>
+            <button class="toggle-details">More</button>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate"></i>
+            <h3>Data Structures and Algorithms in Python</h3>
+            <p>Jovian - Issued Apr 2022</p>
+        </div>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate"></i>
+            <h3>Problem Solving (Intermediate)</h3>
+            <p>HackerRank - Issued Mar 2022</p>
+        </div>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate"></i>
+            <h3>Fundamentals of Digital Marketing</h3>
+            <p>Google - Issued Jan 2022</p>
+        </div>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate"></i>
+            <h3>Artificial Intelligence in the 4IR</h3>
+            <p>University of Johannesburg - Issued Dec 2021</p>
+        </div>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate"></i>
+            <h3>HackerRank Python Certificates</h3>
+            <p>HackerRank - Issued Dec 2021</p>
+        </div>
+
+        <div class="certification-item">
+            <i class="fas fa-certificate"></i>
+            <h3>Scientific Computing with Python</h3>
+            <p>freeCodeCamp - Issued Dec 2021</p>
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Data Analysis with R</h3>
+            <img src="images/r.png" alt="Data Analysis with R Screenshot">
+            <p>Focuses on data analysis concepts including sampling techniques, distribution fitting, parametric assumptions, sample comparison methods, and linear regression.</p>
+            <a href="https://github.com/Hectorvee/Data-Analysis-with-R" target="_blank">View Project on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Data Analysis with Python</h3>
+            <img src="images/python.png" alt="Data Analysis with Python Screenshot">
+            <p>Guides you through mastering data analysis using Python, with a focus on practical applications.</p>
+            <a href="https://github.com/Hectorvee/Data-Analysis-with-Python" target="_blank">View Project on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Data Communications (Java)</h3>
+            <img src="images/data-communication.png" alt="Data Communications Screenshot">
+            <p>Java projects related to data communications, network programming, and protocols.</p>
+            <a href="https://github.com/Hectorvee/Data-Communications-Java" target="_blank">View Project on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <img src="images/weather.png" alt="Data Communications Screenshot">
+            <p>A simple weather application built with Python and Tkinter that fetches weather data using the OpenWeatherMap API.</p>
+            <a href="https://github.com/Hectorvee/weather-app" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Snake Game</h3>
+            <img src="images/snake.png" alt="Snake Game Screenshot">
+            <p>This project is a classic Snake game implemented using Python's turtle graphics library. The game involves controlling a snake to eat food, grow in size, and avoid collisions with the walls or itself.</p>
+            <a href="https://github.com/Hectorvee/SnakeGame" target="_blank">View Project on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Password Manager</h3>
+            <img src="images/password.png" alt="Password Manager Screenshot">
+            <p>A simple password manager application built using Python and Tkinter.</p>
+            <a href="https://github.com/Hectorvee/Password-Manager-GUI-App" target="_blank">View Project on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="modal-title">Project Title</h2>
+            <p class="modal-description">Project Description</p>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to get in touch, feel free to reach out via the following methods:</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/50/387478/mail.png" alt="Email Icon" class="contact-icon">
+                <h3>Email</h3>
+                <p><a href="mailto:vukosi1632@gmail.com" data-type="email">vukosi1632@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/50/387478/whatsapp.png" alt="WhatsApp Icon" class="contact-icon">
+                <h3>WhatsApp</h3>
+                <p><a href="https://wa.me/0604020761">Chat with me on WhatsApp</a></p>
+            </div>
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/50/387478/github.png" alt="GitHub Icon" class="contact-icon">
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/Hectorvee">Your GitHub Profile</a></p>
+            </div>
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/50/387478/linkedin.png" alt="LinkedIn Icon" class="contact-icon">
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/hector-mathonsi-35a8371b9/">Your LinkedIn Profile</a></p>
+            </div>
+            <div class="contact-item">
+                <img src="https://img.icons8.com/ios-filled/50/387478/twitter.png" alt="Twitter Icon" class="contact-icon">
+                <h3>Twitter (X)</h3>
+                <p><a href="https://x.com/Hector_veekay">Your Twitter Profile</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Vukosi Hector Mathonsi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
