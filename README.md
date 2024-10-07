@@ -9,7 +9,7 @@ Welcome to my portfolio website! This is a showcase of my work in Mathematical S
 - [Contact](#contact)
 
 ## Demo
-You can view the live demo of my portfolio [here](YOUR_LIVE_DEMO_LINK).
+You can view the live demo of my portfolio [here](https://hectorvee.github.io/my-portfolio/).
 
 ## Features
 - **Responsive Design:** The website adapts seamlessly to various screen sizes, providing a great user experience on both desktop and mobile devices.
