@@ -452,6 +452,23 @@ footer p {
     color: #666; /* Dark grey for text */
 }
 
+/* Style for credential buttons */
+.credential-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #243642;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 15%;
+}
+
+.credential-btn:hover {
+    background-color: #387478;
+}
+
 
 
 /* Projects Section Styles */
