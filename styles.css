@@ -633,6 +633,43 @@ footer p {
     cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* CV Section Styles */
+#cv {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 40px 20px; /* Space around the section */
+    margin: 40px 0; /* Space above and below the section */
+    border-radius: 8px; /* Rounded corners for the section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text */
+}
+
+#cv h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+    color: #243642; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+#cv p {
+    font-size: 1.2em; /* Standard font size for text */
+    color: #666; /* Dark grey for text */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Style for CV button */
+.cv-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #243642;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-btn:hover {
+    background-color: #387478;
+}
+
 /* Contact Section Styles */
 #contact {
     background-color: #F7F9FA; /* Light background for contrast */
