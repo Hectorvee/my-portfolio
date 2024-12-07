@@ -408,6 +408,44 @@ footer p {
     }
 }
 
+/*Experience*/
+#experience {
+    padding: 2em;
+    background-color: #E2F1E7; /* Light theme background color */
+    color: #243642; /* Dark text color */
+}
+
+#experience h2 {
+    text-align: center; /* Center the section heading */
+    font-size: 2.5em; /* Larger font size for the heading */
+    color: #243642; /* Dark color for the heading */
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+.experience-item {
+    border: 1px solid #387478; /* Border matching theme */
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    color: #243642;
+}
+
+.experience-item ul {
+    margin: 1em 0 0;
+    padding-left: 1.5em;
+}
+
+.experience-item ul li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+
 /* Certification Section Styles */
 #certifications {
     background-color: #f5f5f5; /* Light background color */
