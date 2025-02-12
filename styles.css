@@ -431,6 +431,17 @@ footer p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and title */
+}
+
+.experience-logo {
+    width: 40px;  /* Adjust the size */
+    height: 40px; /* Keep it proportional */
+}
+
 .experience-item h3 {
     color: #243642;
 }
